@@ -33,6 +33,6 @@ void print_number(int n)
 
 	if (i == 0)
 		_putchar('0' + n);
-return (void);
+
 }
 
