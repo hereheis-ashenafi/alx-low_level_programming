@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char k[100];
+	char p[100];
 	int num = 0;
 	int random = 0;
 	char *pass = p;
