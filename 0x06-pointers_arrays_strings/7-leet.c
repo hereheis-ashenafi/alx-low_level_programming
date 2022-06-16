@@ -1,18 +1,28 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * leet - transform to leet
+ * @s: char array string type
+ * Return: s transformed
  */
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+char *leet(char *s)
+{
+	int i, ii;
+	char s1[] = "aeotl";
+	char S1[] = "AEOTL";
+	char s2[] = "43071";
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (ii = 0; ii < 5; ii++)
+		{
+			if (s[i] == s1[ii] || s[i] == S1[ii])
+			{
+				s[i] = s2[ii];
+				break;
+			}
+		}
+	}
+	return (s);
 }
