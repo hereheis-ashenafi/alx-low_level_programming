@@ -9,7 +9,6 @@
  * 		exit with 98 if malloc fails
  *
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
