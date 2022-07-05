@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-#define ASHU1
+/**
+ * main - check the code for ALX_SE School students.
+ *
+ * Return: Always 0.
+ */
 
-int main ()
+int main(void)
 {
-    #ifdef ASHU1
-    printf("This is Asheanfi");
-
-    #endif
+	printf("%s\n", __FILE__);
+	return (0);
 }
