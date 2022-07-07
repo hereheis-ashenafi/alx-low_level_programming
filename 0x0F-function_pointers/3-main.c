@@ -1,4 +1,4 @@
-#include "3-calc.h"
+#include "function_pointers.h"
 
 /**
 * main - Prints the result of simple operations.
