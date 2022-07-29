@@ -1,4 +1,4 @@
-i/*
+/*
  * File: 1-create_file.c
  * Auth: Ashenafi N. Kassahun
  */
